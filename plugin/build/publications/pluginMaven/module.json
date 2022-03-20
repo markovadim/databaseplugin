@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "databaseplugin",
+    "module": "plugin",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugin-1.0-SNAPSHOT.jar",
+          "url": "plugin-1.0-SNAPSHOT.jar",
+          "size": 6658,
+          "sha512": "25c421fd47aba405b00d05c08c85476b85d117a33dd491df212d8edae3a248e097c630049462f357d3ae58b756a63abbb6c0926cb7e957904f86b70e1748e286",
+          "sha256": "5ed93eb29924b7520038cd14ef177c00adb34f53bf144a5e27e5d3e489c964c0",
+          "sha1": "7621abc4f4815acbb71392e8873a6ecb182a3580",
+          "md5": "5b425635cd3a6001cd0ed6e731ad6337"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "mysql",
+          "module": "mysql-connector-java",
+          "version": {
+            "requires": "8.0.28"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-1.0-SNAPSHOT.jar",
+          "url": "plugin-1.0-SNAPSHOT.jar",
+          "size": 6658,
+          "sha512": "25c421fd47aba405b00d05c08c85476b85d117a33dd491df212d8edae3a248e097c630049462f357d3ae58b756a63abbb6c0926cb7e957904f86b70e1748e286",
+          "sha256": "5ed93eb29924b7520038cd14ef177c00adb34f53bf144a5e27e5d3e489c964c0",
+          "sha1": "7621abc4f4815acbb71392e8873a6ecb182a3580",
+          "md5": "5b425635cd3a6001cd0ed6e731ad6337"
+        }
+      ]
+    }
+  ]
+}
