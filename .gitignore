@@ -2,7 +2,7 @@
 *.class
 
 #idea
-idea/
+.idea/
 
 # BlueJ files
 *.ctxt

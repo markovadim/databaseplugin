@@ -1,15 +1,12 @@
 package by.markov.databaseplugin;
 
-import by.markov.databaseplugin.tasks.Connector;
-import by.markov.databaseplugin.tasks.CreatorTable;
-import by.markov.databaseplugin.tasks.ReaderSchema;
+import by.markov.databaseplugin.tasks.*;
 import org.gradle.api.Project;
 import org.gradle.api.Plugin;
 
 import java.io.IOException;
-import java.sql.SQLException;
 
-public class DatabasepluginPlugin implements Plugin<Project> {
+public class DatabasePlugin implements Plugin<Project> {
 
     public void apply(Project project) {
         // Register a task
@@ -26,20 +23,31 @@ public class DatabasepluginPlugin implements Plugin<Project> {
             }
         });
 
-        project.getTasks().register("createConnecting", Connector.class, task -> {
+        project.getTasks().register("createTable", CreatorTable.class, task -> {
             task.dependsOn("readSchema");
             task.setGroup("database");
+            task.createTableInDataBase();
+        });
+
+        project.getTasks().register("readData", ReaderData.class, task -> {
+            task.dependsOn("createTable");
+            task.setGroup("database");
             try {
-                task.connecting();
-            } catch (SQLException | ClassNotFoundException e) {
+                task.readData();
+            } catch (IOException e) {
                 e.printStackTrace();
             }
         });
 
-        project.getTasks().register("createTable", CreatorTable.class, task -> {
-            task.dependsOn("createConnecting");
+        project.getTasks().register("insertData", InsertData.class, task -> {
+            task.dependsOn("readData");
             task.setGroup("database");
-            task.createTableInDataBase();
+            task.addDataToBase();
+        });
+
+        project.getTasks().register("dropTable", Uninstaller.class, task -> {
+            task.setGroup("database");
+            task.dropTable();
         });
 
     }

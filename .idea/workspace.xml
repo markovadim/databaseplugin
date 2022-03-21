@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bb0be8-5c56-41d4-b229-cd4d96041d8f" name="Changes" comment="" />
+    <list default="true" id="89bb0be8-5c56-41d4-b229-cd4d96041d8f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aec22277-781e-44e4-8546-bdf256ae2757/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aec22277-781e-44e4-8546-bdf256ae2757/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aec22277-781e-44e4-8546-bdf256ae2757/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aec22277-781e-44e4-8546-bdf256ae2757/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aec22277-781e-44e4-8546-bdf256ae2757/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aec22277-781e-44e4-8546-bdf256ae2757/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aec22277-781e-44e4-8546-bdf256ae2757/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aec22277-781e-44e4-8546-bdf256ae2757/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aec22277-781e-44e4-8546-bdf256ae2757/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aec22277-781e-44e4-8546-bdf256ae2757/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/build/pluginDescriptors/by.markov.databaseplugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/build/pluginDescriptors/by.markov.databaseplugin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/build/publications/pluginMaven/module.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/build/publications/pluginMaven/module.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/build/resources/main/META-INF/gradle-plugins/by.markov.databaseplugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/build/resources/main/META-INF/gradle-plugins/by.markov.databaseplugin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/build/resources/main/META_INF.gradle-plugins/by.markov.databaseplugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/build/resources/main/META_INF.gradle-plugins/by.markov.databaseplugin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/build/tmp/publishDatabasepluginPluginMarkerMavenPublicationToMavenLocal/module-maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/build/tmp/publishDatabasepluginPluginMarkerMavenPublicationToMavenLocal/module-maven-metadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/build/tmp/publishDatabasepluginPluginMarkerMavenPublicationToMavenLocal/snapshot-maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/build/tmp/publishDatabasepluginPluginMarkerMavenPublicationToMavenLocal/snapshot-maven-metadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/build/tmp/publishPluginMavenPublicationToMavenLocal/module-maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/build/tmp/publishPluginMavenPublicationToMavenLocal/module-maven-metadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/build/tmp/publishPluginMavenPublicationToMavenLocal/snapshot-maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/build/tmp/publishPluginMavenPublicationToMavenLocal/snapshot-maven-metadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/src/main/java/by/markov/databaseplugin/DatabasepluginPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/src/main/java/by/markov/databaseplugin/DatabasePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/src/main/java/by/markov/databaseplugin/tasks/Connector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/src/main/java/by/markov/databaseplugin/tasks/CreatorTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/src/main/java/by/markov/databaseplugin/tasks/CreatorTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/src/main/java/by/markov/databaseplugin/tasks/InsertData.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/src/main/java/by/markov/databaseplugin/tasks/InsertData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/src/main/resources/META_INF.gradle-plugins/by.markov.databaseplugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/src/main/resources/META_INF.gradle-plugins/by.markov.databaseplugin.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +82,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -71,6 +97,9 @@
     <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="26a5db516QghcYJRgD5vPbpfCRb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -92,28 +121,7 @@
       <recent name="C:\Users\DELL\IdeaProjects\databaseplugin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.databaseplugin [createTable]">
-    <configuration name="databaseplugin [createConnecting]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="createConnecting" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.databaseplugin [publishToMavenLocal]">
     <configuration name="databaseplugin [createTable]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -135,7 +143,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="databaseplugin [publishPluginMavenPublicationToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="databaseplugin [dropTable]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -146,7 +154,28 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="publishPluginMavenPublicationToMavenLocal" />
+            <option value="dropTable" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="databaseplugin [insertData]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="insertData" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,7 +206,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="databaseplugin [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="databaseplugin [readData]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -188,7 +217,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="wrapper" />
+            <option value="readData" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -200,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.databaseplugin [createTable]" />
         <item itemvalue="Gradle.databaseplugin [publishToMavenLocal]" />
-        <item itemvalue="Gradle.databaseplugin [createConnecting]" />
-        <item itemvalue="Gradle.databaseplugin [wrapper]" />
-        <item itemvalue="Gradle.databaseplugin [publishPluginMavenPublicationToMavenLocal]" />
+        <item itemvalue="Gradle.databaseplugin [dropTable]" />
+        <item itemvalue="Gradle.databaseplugin [insertData]" />
+        <item itemvalue="Gradle.databaseplugin [createTable]" />
+        <item itemvalue="Gradle.databaseplugin [readData]" />
       </list>
     </recent_temporary>
   </component>
@@ -218,11 +247,24 @@
       <updated>1647648945810</updated>
       <workItem from="1647648947137" duration="945000" />
       <workItem from="1647721856691" duration="2246000" />
-      <workItem from="1647762759122" duration="33037000" />
+      <workItem from="1647762759122" duration="33276000" />
+      <workItem from="1647817782300" duration="141000" />
+      <workItem from="1647863508170" duration="4374000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

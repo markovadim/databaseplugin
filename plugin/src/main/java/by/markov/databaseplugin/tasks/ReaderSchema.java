@@ -14,16 +14,6 @@ public class ReaderSchema extends DefaultTask {
 
         String dir = System.getProperty("user.dir");
         File file = new File(dir, "schema.sql");
-
-//        BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
-//        while (bufferedReader.ready()) {
-//            sqlQuery += bufferedReader.readLine();
-//        }
-//        bufferedReader.close();
-//
-//        System.out.println(sqlQuery);
-//        return sqlQuery;
-
         Reader reader = new FileReader(file);
         BufferedReader br = new BufferedReader(reader);
         sqlQuery=br.readLine();

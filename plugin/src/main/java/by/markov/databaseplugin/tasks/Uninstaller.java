@@ -9,17 +9,19 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class InsertData extends DefaultTask {
+public class Uninstaller extends DefaultTask {
+
+    private static String DROP_TABLE = "DROP TABLE clients";
 
     @TaskAction
-    public void addDataToBase(){
-        try(Connection connection = DriverManager.getConnection(SQLProperty.URL,SQLProperty.USER,SQLProperty.PASSWORD)) {
+    public void dropTable() {
+        try (Connection connection = DriverManager.getConnection(SQLProperty.URL, SQLProperty.USER, SQLProperty.PASSWORD)) {
             Statement statement = connection.createStatement();
-            for (String line : ReaderData.sqlArray){
-                statement.executeUpdate(line);
-            }
+            statement.executeUpdate(DROP_TABLE);
+            System.out.println("The table is dropping");
         } catch (SQLException e) {
             e.printStackTrace();
+            System.out.println("The table is not exist");
         }
     }
 }

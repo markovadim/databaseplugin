@@ -40,7 +40,7 @@ gradlePlugin {
     plugins {
         databaseplugin {
             id = 'by.markov.databaseplugin'
-            implementationClass = 'by.markov.databaseplugin.DatabasepluginPlugin'
+            implementationClass = 'by.markov.databaseplugin.DatabasePlugin'
         }
     }
 }

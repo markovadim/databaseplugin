@@ -1,5 +1,6 @@
 package by.markov.databaseplugin.tasks;
 
+import by.markov.databaseplugin.SQLProperty;
 import org.gradle.api.DefaultTask;
 import org.gradle.api.tasks.TaskAction;
 
@@ -13,11 +14,15 @@ public class CreatorTable extends DefaultTask {
     @TaskAction
 
     public void createTableInDataBase() {
-
-        try(Connection connection = DriverManager.getConnection(Connector.URL,Connector.USER,Connector.PASSWORD)) {
-            Statement statement = connection.createStatement();
-            statement.executeUpdate(ReaderSchema.sqlQuery);
-        } catch (SQLException e) {
+        try {
+            Class.forName(SQLProperty.DRIVER);
+            try (Connection connection = DriverManager.getConnection(SQLProperty.URL, SQLProperty.USER, SQLProperty.PASSWORD)) {
+                Statement statement = connection.createStatement();
+                statement.executeUpdate(ReaderSchema.sqlQuery);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
     }
